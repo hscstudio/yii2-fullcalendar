@@ -1,0 +1,25 @@
+{
+  "name": "hscstudio/yii2-fullcalendar",
+  "description": "Yii2 fullcalendar Widgets",
+  "keywords": ["yii", "framework","yii2 fullcalendar"],
+  "homepage": "https://github.com/hscstudio/yii2-fullcalendar",
+  "type": "yii2-extension",
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "Hafid Mukhlasin",
+      "email": "hafidmukhlasin@gmail.com",
+      "homepage": "http://www.hafidmukhlasin.com",
+      "role": "Author Version Yii 2"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2" : "*",
+    "yiisoft/yii2-jui": "*",
+    "bower-asset/fullcalendar" : "2.*"
+  },
+  "autoload": {
+    "psr-4": { "hscstudio\\calendar\\": "" }
+  }
+}
