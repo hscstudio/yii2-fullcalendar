@@ -2,7 +2,27 @@
 
 Yii 2 Extension for library calendar.io
 
-## Usage
+Installation
+------------
+
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+
+Either run
+
+```
+php composer.phar require --prefer-dist hscstudio/yii2-calendar "*"
+```
+
+or add
+
+```
+"hscstudio/yii2-calendar": "*"
+```
+
+to the require section of your `composer.json` file.
+
+Usage
+-----
 
 In view
 ```php	
@@ -52,3 +72,25 @@ public function actionEventCalendar($start=NULL,$end=NULL,$_=NULL){
 	return $events;
 }
 ```
+
+## How to Contribute
+
+This tools is an OpenSource project so your contribution is very welcome.
+
+In order to get started:
+
+- Install this in your local (read installation section)
+- Clone this repository.
+- Check [README.md](README.md).
+- Send [pull requests](https://github.com/hscstudio/yii2-calendar/pulls).
+
+Aside from contributing via pull requests you may [submit issues](https://github.com/hscstudio/yii2-calendar/issues).
+
+## Our Team
+
+- [Hafid Mukhlasin](http://www.hafidmukhlasin.com) - Project Leader / Indonesian Yii developer.
+
+We'd like to thank our [contributors](https://github.com/hscstudio/yii2-calendar/graphs/contributors) for improving
+this tools. Thank you!
+
+Jakarta - Indonesia
