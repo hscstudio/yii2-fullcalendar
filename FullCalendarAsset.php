@@ -54,7 +54,7 @@ class FullCalendarAsset extends AssetBundle
 	 */
 	public $depends = [
 		'yii\bootstrap\BootstrapAsset',
-		'app\widgets\MomentAsset',
+		'hscstudio\calendar\MomentAsset',
 		'yii\jui\JuiAsset',
 	];
 	/**
