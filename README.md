@@ -10,19 +10,21 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist hscstudio/yii2-calendar "*"
+php composer.phar require --prefer-dist hscstudio/yii2-fullcalendar "*"
 ```
 
 or add
 
 ```
-"hscstudio/yii2-calendar": "*"
+"hscstudio/yii2-fullcalendar": "*"
 ```
 
 to the require section of your `composer.json` file.
 
 Usage
 -----
+
+You may have a table event (id, title (varchar), start (date/datetime), end (date/datetime))
 
 In view
 ```php	

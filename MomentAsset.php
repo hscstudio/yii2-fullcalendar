@@ -14,7 +14,7 @@ class MomentAsset extends AssetBundle
 	 * [$sourcePath description]
 	 * @var string
 	 */
-	public $sourcePath = '@bower/bower-asset/moment';
+	public $sourcePath = '@bower/moment';
 	/**
 	 * [$js description]
 	 * @var array
