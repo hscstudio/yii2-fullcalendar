@@ -62,11 +62,6 @@ class FullCalendarAsset extends AssetBundle
 	 */
 	public function registerAssetFiles($view)
 	{
-		$language = $this->language ? $this->language : Yii::$app->language;
-		if ($language != 'en-us')
-		{
-			$this->js[] = "lang/{$language}.js";
-		}
 		if($this->googleCalendar)
 		{
 			$this->js[] = 'gcal.js';
