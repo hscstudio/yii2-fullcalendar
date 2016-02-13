@@ -17,7 +17,7 @@
     "php": ">=5.4.0",
     "yiisoft/yii2" : "*",
     "yiisoft/yii2-jui": "*",
-    "bower-asset/fullcalendar" : "*"
+    "bower-asset/fullcalendar" : "2.*"
   },
   "autoload": {
     "psr-4": { "hscstudio\\calendar\\": "" }
